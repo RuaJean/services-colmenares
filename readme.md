@@ -37,21 +37,17 @@ Además, se integró un sistema de Recuperación de Información Asistida por In
    git clone https://github.com/jeanrua/services-colmenares.git
    cd services-colmenares
 Instala las dependencias:
-
-    ```
     npm install
 
 Configura las variables de entorno en un archivo .env:
 
-    ``` 
     PORT=3000
     MONGODB_URI=your_mongodb_uri
     JWT_SECRET=your_jwt_secret
     AI_API_KEY=your_ai_api_key
     Inicia el servidor:
 
-Inicia el servidor
-    ``` 
+Inicia el servidor 
     npm start
 
 🤝 Contribuciones
