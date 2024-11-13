@@ -1,6 +1,6 @@
 # Sistema de Gestión de Casos Fiscales para Colmenares & Asociados
 
-Este proyecto constituye el backend del **Sistema de Gestión de Casos Fiscales** desarrollado para la firma de abogados [Colmenares & Asociados](https://www.colmenaresasociados.com/), ubicada en Bogotá, Colombia. La firma se especializa en diversas áreas del derecho, incluyendo Derecho Deportivo, Corporativo, Comercial, Laboral y Tributario. :contentReference[oaicite:0]{index=0}
+Este proyecto constituye el backend del **Sistema de Gestión de Casos Fiscales** desarrollado para la firma de abogados [Colmenares & Asociados](https://www.colmenaresasociados.com/), ubicada en Bogotá, Colombia. La firma se especializa en diversas áreas del derecho, incluyendo Derecho Deportivo, Corporativo, Comercial, Laboral y Tributario.
 
 **Desarrollador**: Jean Rúa  
 **Sitio Web**: [jeanrua.com](https://jeanrua.com)  
@@ -37,8 +37,8 @@ colmenares-backend/ │ ├── controllers/ │ ├── caseController.js �
 
 1. Clona el repositorio y navega a la carpeta del proyecto:
    ``` 
-   git clone https://github.com/jeanrua/colmenares-backend.git
-   cd colmenares-backend
+   git clone https://github.com/jeanrua/services-colmenares.git
+   cd services-colmenares
 Instala las dependencias:
 
  
@@ -46,17 +46,17 @@ Instala las dependencias:
 npm install
 Configura las variables de entorno en un archivo .env:
 
-makefile
- 
-PORT=3000
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-AI_API_KEY=your_ai_api_key
-Inicia el servidor:
+    ``` 
+    PORT=3000
+    MONGODB_URI=your_mongodb_uri
+    JWT_SECRET=your_jwt_secret
+    AI_API_KEY=your_ai_api_key
+    Inicia el servidor:
 
  
- 
-npm start
+    ``` 
+    npm start
+
 🤝 Contribuciones
 Las contribuciones son bienvenidas para mejorar y expandir las funcionalidades del sistema. Si tienes ideas o mejoras, por favor abre un Pull Request o contacta al desarrollador.
 
@@ -64,6 +64,3 @@ Desarrollado por Jean Rúa para Colmenares & Asociados. Para más información, 
 
 Gracias por tu interés en este proyecto.
 
-css
- 
-::contentReference[oaicite:1]{index=1}
