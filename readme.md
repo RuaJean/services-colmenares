@@ -29,9 +29,6 @@ Además, se integró un sistema de Recuperación de Información Asistida por In
 - **Autenticación**: JWT (JSON Web Tokens) para manejo de sesiones y permisos
 - **Control de Versiones**: Git y GitHub
 
-## 📂 Estructura del Proyecto
-
-colmenares-backend/ │ ├── controllers/ │ ├── caseController.js │ ├── clientController.js │ └── documentController.js │ ├── models/ │ ├── Case.js │ ├── Client.js │ └── Document.js │ ├── routes/ │ ├── caseRoutes.js │ ├── clientRoutes.js │ └── documentRoutes.js │ ├── services/ │ ├── aiService.js │ └── authService.js │ ├── utils/ │ ├── db.js │ └── logger.js │ ├── .env ├── app.js └── package.json
 
 ## 🚀 Instalación
 
@@ -41,9 +38,9 @@ colmenares-backend/ │ ├── controllers/ │ ├── caseController.js �
    cd services-colmenares
 Instala las dependencias:
 
- 
- 
-npm install
+    ```
+    npm install
+
 Configura las variables de entorno en un archivo .env:
 
     ``` 
@@ -53,7 +50,7 @@ Configura las variables de entorno en un archivo .env:
     AI_API_KEY=your_ai_api_key
     Inicia el servidor:
 
- 
+Inicia el servidor
     ``` 
     npm start
 
